@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b65">
+  <title>NEDUKA MAPEL</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">N</span><div><strong>NEDUKA MAPEL</strong><small>Ruang Kerja Guru Mata Pelajaran</small></div></div>
+    <span class="environment" id="environment">DEVELOPMENT</span>
+  </header>
+  <main class="container">
+    <section class="welcome">
+      <p class="eyebrow">DIGITAL NEDUKA · MODUL PEMBELAJARAN</p>
+      <h1>Selamat datang di <span>NEDUKA MAPEL</span></h1>
+      <p>Satu ruang kerja untuk perangkat pembelajaran, materi, tugas, penilaian, jurnal, dan dokumentasi guru.</p>
+    </section>
+    <section class="notice" id="authNotice">
+      <strong>Fondasi aplikasi siap dikembangkan.</strong>
+      <p>Login produksi belum diaktifkan. Integrasi akun DIGITAL NEDUKA harus diuji dan disahkan terlebih dahulu agar identitas guru tidak dapat dipalsukan.</p>
+    </section>
+    <section class="section-head"><div><p class="eyebrow">RUANG KERJA</p><h2>Modul utama</h2></div></section>
+    <div class="module-grid">
+      <article class="module"><span>▤</span><h3>Perangkat Pembelajaran</h3><p>CP, TP, ATP, modul ajar, dan administrasi.</p></article>
+      <article class="module"><span>▧</span><h3>Materi Digital</h3><p>Materi per kelas, bab, dan semester.</p></article>
+      <article class="module"><span>✓</span><h3>Tugas & LKPD</h3><p>Distribusi tugas dan pemantauan pengumpulan.</p></article>
+      <article class="module"><span>▦</span><h3>Bank Soal & Nilai</h3><p>Bank soal, asesmen, dan rekap nilai.</p></article>
+      <article class="module"><span>◷</span><h3>Jurnal Mengajar</h3><p>Catatan kegiatan pembelajaran.</p></article>
+      <article class="module"><span>▣</span><h3>Dokumentasi</h3><p>Galeri foto dan video dengan akses terkontrol.</p></article>
+    </div>
+    <section class="section-head"><div><p class="eyebrow">KONFIGURASI</p><h2>Koneksi backend</h2></div></section>
+    <div class="connection-card">
+      <label for="apiUrl">URL Web App Apps Script</label>
+      <input id="apiUrl" type="url" placeholder="Diisi setelah backend dideploy">
+      <button id="checkApi" type="button">Uji koneksi</button>
+      <p id="apiStatus" role="status">Belum terhubung. URL hanya disimpan pada sesi browser ini.</p>
+    </div>
+    <footer>PORTAL DIGITAL NEDUKA · SMP NEGERI 2 KAWALI</footer>
+  </main>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
